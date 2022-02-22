@@ -10,7 +10,10 @@
   "author": "diego caviedes <diego_1996.c.c@hotmail.com>",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.1"
+    "json-server": "^0.15.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "webpack": "^5.69.1"
   },
   "devDependencies": {
     "date-fns": "^2.28.0"

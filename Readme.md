@@ -8,6 +8,8 @@ pasos: rapidos
 # npm set init.author.name "diego caviedes"  
 # npm set init.license "MIT" 
 
+# npm install: revisa el package.json e instala todo volver a instalar las depencias 
+
 Instalacion de depencias
 1. crear carpeta SRC
 # npm i -g  global
@@ -33,3 +35,15 @@ en node_modules : se agregan los modulos que estoy agregando a mi proyecto
 **instalar eslint**
 # npm install eslint -O    opcional
 
+# simulaccion de instalacion de paquete.  Cuando queremos ver el output de una dependencia sin proceder con su instalación ejecutamos.
+# npm install react --dry.run
+
+
+
+Instalar la última versión y desde los servidores de npm:
+
+# npm install webpack -f
+# npm install webpack --force
+Instalar una versión exacta de un paquete:
+
+# npm install json-server@0.15.0
