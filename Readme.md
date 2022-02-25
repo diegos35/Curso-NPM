@@ -1,5 +1,13 @@
 Configuración
 
+npm cache clean -f o npm cache clean --force eliminar la caché
+npm cache verify
+//En caso de que nuestros archivos de node_module no estén bien instalados o tengamos una versión anterior lo que podemos hacer es lo siguiente:
+# npm cache clear --force
+Para verificar que verdaderamente se borro podemos usar
+# npm cache verify
+
+# npm ci clean install
 Revisar que paquetes disponen de nuevas versiones
 # npm outdate
 
