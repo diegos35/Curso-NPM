@@ -1,5 +1,14 @@
 Configuración
 
+Podemos revisar las vulnerabilidades de nuestro proyecto con:
+# npm audit
+En caso de tener vulverabilidades, se recomienda usar el comando:
+# npm audit fix
+Y en caso de que esto no lo solucione, podemos ir actualizandolos de uno en uno.
+
+
+
+
 npm cache clean -f o npm cache clean --force eliminar la caché
 npm cache verify
 //En caso de que nuestros archivos de node_module no estén bien instalados o tengamos una versión anterior lo que podemos hacer es lo siguiente:
